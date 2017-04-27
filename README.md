@@ -1,6 +1,6 @@
 # npmtest-decision-tree
 
-#### test coverage for  [decision-tree (v0.3.1)](https://github.com/serendipious/nodejs-decision-tree-id3#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-decision-tree.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-decision-tree) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-decision-tree.svg)](https://travis-ci.org/npmtest/node-npmtest-decision-tree)
+#### basic test coverage for  [decision-tree (v0.3.1)](https://github.com/serendipious/nodejs-decision-tree-id3#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-decision-tree.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-decision-tree) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-decision-tree.svg)](https://travis-ci.org/npmtest/node-npmtest-decision-tree)
 
 #### NodeJS implementation of decision tree using ID3 algorithm
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-decision-tree/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-decision-tree/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-decision-tree/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-decision-tree/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-decision-tree/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-decision-tree/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-decision-tree/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-decision-tree/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-decision-tree/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-decision-tree/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-decision-tree/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-decision-tree/build/coverage.html/index.html)
 
@@ -84,7 +84,8 @@
     "scripts": {
         "test": "NODE_PATH=. ./node_modules/.bin/mocha -R spec tst/*"
     },
-    "version": "0.3.1"
+    "version": "0.3.1",
+    "bin": {}
 }
 ```
 
